@@ -1,0 +1,52 @@
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.user img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user-txt h6 {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.user-txt p {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: gray;
+}
+
+.cnt {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.tsk-list {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.tsk-item {
+    min-height: 45px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loading {
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
