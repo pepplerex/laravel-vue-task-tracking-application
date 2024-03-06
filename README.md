@@ -6,6 +6,7 @@
 - clone repo to your local machine
 - open your terminal and run composer install
 - this will install the necessary packages for our application
+- run php artisan migrate for our database
 - run php artisan serve to start the application
 - app will be accessible at http://localhost:8000
 
